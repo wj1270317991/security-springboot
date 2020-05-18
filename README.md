@@ -8,3 +8,8 @@
                 .passwordEncoder(passwordEncoder());
     }
 ```    
+#### 具体操作
++ http://localhost:8080/login (zhangsan   123)
+> 访问r1可以，访问r2被拦截
++ http://localhost:8080/login?logout
+
